@@ -1,0 +1,177 @@
+@media (max-width:600px) {
+    .bannar .heading h2 {
+    font-size: 33px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: -0.03em;
+    line-height: 1.1em;
+}
+.bannar .parh p {
+    font-size: 17px;
+    color: rgb(77, 77, 77);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+.logos .heading h2 {
+    font-size: 33px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    letter-spacing: -0.04em;
+    padding-top: 70px !important;
+}
+.ShortForm .heading h2 {
+    font-size: 33px;
+    font-weight: 700;
+    font-family: "Poppins", serif;
+    letter-spacing: -3px;
+    line-height: 90px;
+    /* padding-top: 46px; */
+    padding-top: 20px;
+}
+.longform {
+    padding-bottom: 30px;
+}
+.service {
+    padding-top: 60px;
+}
+.pb-5 {
+    padding-bottom: 1rem !important;
+}
+.diference {
+    padding-top: 60px;
+}
+.services-content section {
+    margin-bottom: 30px;
+}
+.longform .heading h2 {
+    font-size: 33px;
+    font-weight: 700;
+    font-family: "Poppins", serif;
+    letter-spacing: -3px;
+    line-height: 90px;
+    /* padding-top: 46px; */
+    padding-top: 20px;
+}
+.brands .heading h2 {
+    font-size: 33px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    line-height: 1em;
+    letter-spacing: -0.04em;
+}
+.brands .pointone h2 {
+    font-family: "Poppins", serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.09em;
+    line-height: 0.9em;
+    color: var(--token-9e4d3cd9-c6a1-4d3f-93c0-3bd54ca04155, rgb(0, 0, 0));
+    margin-left: 10px;
+    text-align: center;
+}
+.brands .pointone h3 {
+    font-size: 18px;
+    font-family: "Poppins", serif;
+    margin-left: 10px;
+    font-weight: 500;
+    text-align: center;
+}
+.service .heading h2 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    letter-spacing: -.05em;
+    line-height: 1.0em;
+}
+    .services-nav ul {
+        position: relative;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 20px;
+        display: none;
+    }
+    .diference .heading h2 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    letter-spacing: -.05em;
+    line-height: 1.0em;
+}
+.points {
+    margin-left: 0px;
+}
+.points .poione {
+    align-items: center;
+    background-color: var(--token-c09d492a-e729-4cbb-b155-5952e8c0f0ee, #f5f7f9);
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* gap: 10px; */
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    padding: 20px !important;
+    position: relative;
+    width: 100%;
+    will-change: var(--framer-will-change-override, transform);
+}
+.points .poitwo {
+    align-items: center;
+    background-color: var(--token-c09d492a-e729-4cbb-b155-5952e8c0f0ee, #000000);
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    padding: 20px !important;
+    position: relative;
+    width: 100%;
+    will-change: var(--framer-will-change-override, transform);
+}
+footer {
+    background-color: black;
+    padding: -100px -500px;
+    /* background-color: var(--token-6486a9ac-e9e8-4ced-becb-afb4c654ba35, rgb(0, 0, 0)); */
+    border-radius: 30px;
+    opacity: 1;
+    overflow: visible;
+    padding: 50px 0;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+footer .heading h2 {
+    font-size: 70px;
+    color: #4F86F7;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+}
+footer .heading p {
+    color: white;
+    font-size: 18px;
+    font-family: "Poppins", serif;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.logo-showcase-container {
+    position: relative;
+    width: 750px;
+    height: 310px;
+    display: none;
+}
+}
