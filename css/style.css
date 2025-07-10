@@ -198,7 +198,7 @@
 
 /* Top Row Positioning */
 #logo1 { top: 5px; left: 0; }
-#logo1 img { max-width: 40%; } /* 'in' logo */
+#logo1 img { max-width: 90%; } /* 'in' logo */
 
 #logo2 { top: 5px; left: 145px; }
 #logo2 img { max-width: 65%; } /* 'profitl' */
@@ -951,6 +951,17 @@ h1 {
 .points {
     margin-left: 400px;
 }
+.points .poione h2 {
+    font-size: 27px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+}
+.points .poitwo h2 {
+    font-size: 27px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    color: #2F80ED;
+}
 .points .poione {
     align-items: center;
     background-color: var(--token-c09d492a-e729-4cbb-b155-5952e8c0f0ee, #f5f7f9);
@@ -960,7 +971,7 @@ h1 {
     flex: none;
     flex-direction: column;
     flex-wrap: nowrap;
-    /* gap: 10px; */
+    gap: 10px;
     height: min-content;
     justify-content: center;
     overflow: hidden;
